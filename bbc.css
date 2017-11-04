@@ -110,12 +110,28 @@
 
 #topicmenu ul{
   background-color: #3E0C0D;
+  padding: 5px 0 0 5px;
+  margin: 0;
+  height: 20px;
 }
 
 #topicmenu li{
-
+  list-style: none;
+  font-size: 0.8em;
+  float: left;
+  border-right: 1px solid #990000;
+  padding: 0 6px 0 6px;
+  background-color: none;
 }
 
+.selected {
+  background-color: #EDEDED;
+  color:#666666;
+  height: 18px;
+  position: relative;
+  padding-top: 5px !important;
+  top: -4px;
+}
 body{
   margin:0;
   font-family: Arial, helvetica, sans-serif;
