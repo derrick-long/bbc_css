@@ -155,6 +155,7 @@
   left: 10px;
   width: 250px;
   font-size: 1.1em;
+  padding: 0 20px 0 20px;
 }
 
 .news-item a {
@@ -191,7 +192,7 @@
   height: auto;
   position: relative;
   top: -85px;
-  left: -250px;
+  left: -195px;
 }
 
 .boxes {
@@ -211,8 +212,19 @@
 
 .wblock {
   float: left;
-
 }
+
+#watch ul{
+  float: left;
+}
+
+#watch li{
+  list-style: none;
+  background-image:url("images/live.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
 
 h1 {
   font-size: 2.5em;
