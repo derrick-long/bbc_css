@@ -188,7 +188,7 @@
 #watch {
   background-color: #EEEEEE;
   float: right;
-  width: 350px;
+  width: 330px;
   height: auto;
   position: relative;
   top: -85px;
@@ -216,6 +216,8 @@
 
 #watch ul{
   float: left;
+  padding: 0 0 0 5px;
+  margin: 0;
 }
 
 #watch li{
@@ -223,8 +225,18 @@
   background-image:url("images/live.png");
   background-repeat: no-repeat;
   background-position: left center;
+  padding: 10px 0 10px 40px;
+
 }
 
+#watch a{
+  text-decoration: none;
+  color: #1F4F82;
+}
+
+#watch a:hover {
+  text-decoration: underline;
+}
 
 h1 {
   font-size: 2.5em;
